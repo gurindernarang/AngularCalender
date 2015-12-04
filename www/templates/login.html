@@ -1,20 +1,5 @@
 <ion-view view-title='login' hide-nav-bar="true">
     <ion-content scroll="true">
-        <div class="list">
-            <label class="item item-input">
-                <input type="email" class="input_user" placeholder="Email" ng-model="loginData.email">
-            </label>
-            <label class="item item-input">
-                <input type="password" class="input_pass" placeholder="Password" ng-model="loginData.password">
-            </label>
-            <label class="item item-input">
-                <button class="button button-block button-positive" ng-click="doLogin()">
-                    Login
-                </button>
-                <button class="button button-block button-positive" ng-click="account_create()">
-                    Forgot password?
-                </button>
-            </label>
-        </div>
+        <div ui-calendar="uiConfig.calendar" ng-model="eventSources">
     </ion-content>
 </ion-view>

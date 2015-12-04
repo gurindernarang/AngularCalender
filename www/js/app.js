@@ -1,5 +1,5 @@
 
-var blank = angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'ngCordova'])
+var blank = angular.module('starter', ['ionic', 'ngCordova','ui.calendar'])
 
 blank.run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
