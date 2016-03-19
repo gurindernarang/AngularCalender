@@ -1,10 +1,8 @@
 {
-  "name": "HelloIonic",
-  "private": "true",
-  "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.1.0"
-  },
-  "dependencies": {
-    "angular-ui-calendar": "~1.0.1"
-  }
+    "name": "HelloIonic",
+    "private": "true",
+    "devDependencies": {
+        "ionic": "driftyco/ionic-bower#1.2.4",
+        "angular-ui-calendar": "latest"
+    }
 }
